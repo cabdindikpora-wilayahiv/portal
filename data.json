@@ -1,0 +1,14 @@
+{
+  "menu": [
+    { "title": "Beranda", "link": "index.html", "isDropdown": false },
+    { "title": "Profil", "link": "#", "isDropdown": true, "subMenu": [
+        { "title": "Visi & Misi", "link": "visi-misi.html" },
+        { "title": "Struktur", "link": "struktur.html" }
+      ]
+    }
+  ],
+  "stats": { "sekolah": 52, "guru": 1420, "siswa": 18500, "wilayah": 4 },
+  "announcements": [
+    { "judul": "PPDB 2026 Dibuka", "info": "Penting", "link": "#" }
+  ]
+}

@@ -1,10 +1,60 @@
 {
   "menu": [
-    { "title": "Beranda", "link": "index.html", "isDropdown": false },
-    { "title": "Profil", "link": "#", "isDropdown": true, "subMenu": [
-        { "title": "Visi & Misi", "link": "visi-misi.html" },
-        { "title": "Struktur", "link": "struktur.html" }
-      ]
+  {
+    "title": "Beranda",
+    "link": "#",
+    "isDropdown": false
+  },
+  {
+    "title": "Profil",
+    "link": "#",
+    "isDropdown": true,
+    "subMenu": [
+      { "title": "Visi & Misi", "link": "#" },
+      { "title": "Struktur Organisasi", "link": "#" },
+      { "title": "Tugas & Fungsi", "link": "#" }
+    ]
+  },
+  {
+    "title": "Data Sekolah",
+    "link": "#",
+    "isDropdown": true,
+    "subMenu": [
+      { 
+        "title": "Dapodik", 
+        "link": "#",
+        "isDropdown": true,
+        "subMenu": [
+          { "title": "Manajemen Dinas", "link": "https://datadik.kemendikdasmen.go.id/" },
+          { "title": "Manajemen Sekolah", "link": "https://sp.datadik.kemendikdasmen.go.id/" },
+          { "title": "Individual GTK", "link": "https://ptk.datadik.kemendikdasmen.go.id/" }
+        ] 
+      },
+      { "title": "Peta Sebaran Sekolah", "link": "#" },
+      { "title": "Daftar Satuan Pendidikan", "link": "#" }
+    ]
+  },
+  {
+    "title": "Layanan",
+    "link": "#",
+    "isDropdown": true,
+    "subMenu": [
+      { "title": "E-Pelaporan / Unggah Berkas", "link": "#" },
+      { "title": "Layanan GTK", "link": "#" },
+      { "title": "Layanan Kesiswaan", "link": "#" }
+    ]
+  },
+  {
+    "title": "Publikasi",
+    "link": "#",
+    "isDropdown": false
+  },
+  {
+    "title": "Kontak",
+    "link": "https://www.google.com",
+    "isDropdown": false
+  }
+]
     }
   ],
   "stats": { "sekolah": 52, "guru": 1420, "siswa": 18500, "wilayah": 4 },
